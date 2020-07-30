@@ -1,7 +1,9 @@
 package examples
+
 import org.apache.spark.sql.SparkSession
 import scala.math.random
- object SparkPi {
+
+object SparkPi {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession
       .builder()
@@ -20,3 +22,4 @@ import scala.math.random
     spark.stop()
   }
 }
+
