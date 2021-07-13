@@ -134,7 +134,7 @@ public class Parent {
 
 //        String sql = "update supindb.college set uid='22333' where name='小明'";
         //sql = "delete from supindb.college where uid= '22223333'";
-        String path="D:\\bigdataProject\\src\\main\\resources\\test.sql"
+        String path="D:\\bigdataProject\\src\\main\\resources\\test.sql";
         String sql=readText(path);
         Map<String, TreeSet<String>> getfrom = getFromTo(sql);
 
